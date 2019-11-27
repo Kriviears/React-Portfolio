@@ -1,0 +1,11 @@
+/* .Side_Nav {
+    width: 3em;
+} */
+
+
+.Tabs {
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

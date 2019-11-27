@@ -1,0 +1,34 @@
+.button {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+.NavTab {
+    width: 95%;
+    max-width: 250px;
+    border-radius: 5px;
+    background-color: rgba(22, 16, 109, 0.698);
+    background-image: rgba(22, 16, 109, 0.698);
+    background-image: -moz-linear-gradient(top, #fff 0%, rgba(22, 16, 109, 0.698) 100%); 
+    background-image: -webkit-linear-gradient(top, #fff 0%,rgba(22, 16, 109, 0.698) 100%); 
+    background-image: linear-gradient(to bottom, #fff 0%,rgba(22, 16, 109, 0.698) 100%); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.NavTab:hover {
+    background-position: -500%;
+    transition: background 300ms ease-in-out;
+    color: aqua;
+}
