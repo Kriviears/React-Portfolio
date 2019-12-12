@@ -8,9 +8,14 @@
                         "nav main  main";
   grid-template-rows: 150px 1fr 30px;
   grid-template-columns: 14% 1fr;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
 
 
 
@@ -18,10 +23,10 @@
   background-color: #0b1b32;
   color: #fff;
   grid-area: nav;
-  height: 100vh;
   overflow: auto;
   padding-top: 30px;
   padding: auto;
+  overflow: scroll;
 }
 
 
@@ -40,6 +45,9 @@
 .App_main {
   grid-area: main;
   background-color: aqua;
+  overflow: scroll;
+  padding: 0px 40px 0px 0px;
+  
 }
 
 .App-link {

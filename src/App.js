@@ -4,17 +4,17 @@ import AppContext from './AppContext'
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Header from './Header/Header'
-import Projects from './ProjectsMain/Projects';
+import ProjectListMain from './ProjectsMain/ProjectListMain';
 import HomeNav from './HomeNav/HomeNav'
 import ProjectsNav from './ProjectsNav/ProjectsNav'
 import CoverPage from './CoverPage/CoverPage'
 import About from './About/About'
-import projects from './data'
+import data from './data'
 
 
 class App extends Component {
   state = {
-    projects: projects,
+    projects: data.projects,
     currentPage: "hire me pls",
     currentProject: {},
     currentTab: {}
@@ -30,8 +30,7 @@ class App extends Component {
   renderNavRoutes(){
     return(
       <>
-        <Route
-          exact 
+        <Route 
           key='/'
           path='/'
           component={HomeNav}
@@ -57,7 +56,7 @@ class App extends Component {
         />
         <Route 
           path='/projects'
-          component={Projects}
+          component={ProjectListMain}
         />
       </>
     )

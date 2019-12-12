@@ -1,0 +1,11 @@
+.list {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.project {
+    background-color: chartreuse;
+    height: 82vh;
+    display: flex;
+    margin-bottom: 25px;
+}
