@@ -8,7 +8,6 @@ export default class Header extends Component {
 
     render(){
         const { currentPage } = this.context
-        console.log("the current page is " + currentPage)
 
         return(
             <div>

@@ -15,10 +15,10 @@ export default class Project extends Component {
                     <p>{this.props.description}</p>
                 </div>
                 <div>  
-                    {this.props.github}
+                    <a href={this.props.github}>Github page</a>
                 </div>
                 <div>
-                    {this.props.deployment}
+                    <a href={this.props.deployment}>Working app</a>
                 </div>
             </div>
         )

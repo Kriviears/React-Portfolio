@@ -15,7 +15,7 @@ import data from './data'
 class App extends Component {
   state = {
     projects: data.projects,
-    currentPage: "hire me pls",
+    currentPage: "Full Stack Developer",
     currentProject: {},
     currentTab: {}
   }

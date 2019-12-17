@@ -1,10 +1,11 @@
 .list {
     list-style-type: none;
     margin: 0px;
+    opacity: none;
 }
 
 .project {
-    background-color: chartreuse;
+    background-color: rgb(128, 128, 128, 0.5);
     height: 82vh;
     display: flex;
     margin-bottom: 25px;

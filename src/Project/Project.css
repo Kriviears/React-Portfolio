@@ -4,14 +4,24 @@
     margin-left: auto;
     margin-right: auto;
     width: 100vh;
+    opacity: 2;
 }
 
 img {
-    max-height: 600px;
+    max-height: 580px;
+    max-width: 1200px;
 }
 
 .preview {
     display: block;
     margin-left: auto;
     margin-right: auto;
-} 
+}
+
+.project_page .p {
+    font-size: x-large;
+}
+
+.project_page .a {
+    font-size: larger;
+}
