@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './ProjectListMain.css'
 import AppContext from '../AppContext'
-import { Route, Link} from 'react-router-dom'
 import '../Project/Project'
 import Project from '../Project/Project'
 
