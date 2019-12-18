@@ -1,3 +1,11 @@
+.about-me {
+    background-color: rgb(128, 128, 128, 0.5);
+    height: 82vh;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    transform: translateX(25px);
+}
+
 .about-me p, a {
     margin-left: 50px;
 }

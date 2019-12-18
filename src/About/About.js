@@ -20,8 +20,6 @@ export default class About extends Component {
                 </ul>
                 <a href="github.com/kriviears">My Github</a>
                 <a href="linkedin.com/kriviears">My LinkedIn</a>
-                <p>Resume yadda yadda</p>
-                <p>cool stuff</p>
             </div>
         )
     }
