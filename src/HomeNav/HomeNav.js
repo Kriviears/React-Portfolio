@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 
 export default class HomeNav extends Component {
 
+    //restyle tabs to be more readable
 
     render(){
         return (
