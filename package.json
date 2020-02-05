@@ -1,6 +1,6 @@
 {
   "homepage": "http://kriviears.github.io/React-Portfolio",
-  "name": "React-Portfolio",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,5 +36,8 @@
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "serve": "^11.0.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
   }
 }
