@@ -26,7 +26,7 @@ class App extends Component {
     });
   };
 
-  renderNavRoutes(){
+  renderNavRoutes() {
     return (
       <>
         <Route key="/" path="/" component={HomeNav} />
@@ -38,11 +38,11 @@ class App extends Component {
   renderMainRoutes() {
     return (
       <>
-        <Route exact path='/' component={CoverPage}/>
-        <Route path='/about' component={About}/>
-        <Route path='/projects' component={ProjectListMain}/>
+        <Route exact path="/" component={CoverPage} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={ProjectListMain} />
       </>
-    )
+    );
   }
 
   render() {
@@ -54,30 +54,20 @@ class App extends Component {
       setTab: this.setTab,
       chooseProject: this.chooseProject
     };
-    
+
     return (
       <AppContext.Provider value={appContext}>
         <div className="App">
-
           <header className="App_header">
             <h1>
-              <Link to='/'>Khari Riviears Portfolio</Link>
+              <Link to="/">Khari Riviears Portfolio</Link>
               <Header />
             </h1>
           </header>
 
-        
-          <nav className='App_nav'>
-            {this.renderNavRoutes()}
-          </nav>
+          <nav className="App_nav">{this.renderNavRoutes()}</nav>
 
-        
-          <main className='App_main'>
-            {this.renderMainRoutes()}
-          </main>
-        
-        
-          
+          <main className="App_main">{this.renderMainRoutes()}</main>
         </div>
       </AppContext.Provider>
     );
