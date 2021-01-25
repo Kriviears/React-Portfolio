@@ -22,10 +22,10 @@ export default{
             description: "Take notes, save them in folders and come back to it later. Full stack app made in React and custom api made with Nodejs and backend database stored in postgreSQL"
         },
         {
-            name: "Samurai Shodown frame data app",
-            githubPage: "https://github.com/Kriviears/T7AppPc",
-            deployment: "www.github.com/samurai",
-            preview: "",
+            name: "Fighting game frame data app",
+            githubPage: "https://github.com/Kriviears/granblue-frame-api",
+            deployment: "https://believeinframes.now.sh/",
+            preview: "https://upload.wikimedia.org/wikipedia/en/9/93/Granblue_Fantasy_Versus_logo.png",
             description: "Personal project to easily look up and compare the animation frames for competitive gaming purposes. Full stack app made in React and custom api made with Nodejs and backend database stored in postgreSQL"
         },
     ]
